@@ -1,0 +1,84 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(tailor.jpg);
+    background-size:cover;
+    background-position:inherit;
+   
+    font-family: sans-serif;
+}
+.manu-ber
+{
+    background: rgb(53, 97, 9);
+    text-align: center;
+
+}
+.manu-ber ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+
+}
+.manu-ber ul li
+{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.manu-ber ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active,.manu-ber ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+
+.manu-ber .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.manu-ber ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.manu-ber ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.manu-ber ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+.manu-ber ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.manu-ber ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #b2ff00;
+}
+
